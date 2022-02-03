@@ -1,2 +1,4 @@
 *.jar
 /target/
+/src/it/app-desktop-ui/target/
+/src/it/app-web-ui/target/
