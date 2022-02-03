@@ -33,7 +33,7 @@
 	<!--<<<start>>>location where built r artifacts will be store after code build is successful-->
 	<distributionManagement>
 		<repository>
-			<id>Core-API-Java-Release</id>
+			<id>nexus</id>
 			<name>Release repository</name>
 			<url>http://localhost:8081/repository/maven-releases</url>
 		</repository>
