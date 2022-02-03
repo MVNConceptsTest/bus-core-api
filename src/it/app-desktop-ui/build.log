@@ -73,7 +73,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 [INFO] Error stacktraces are turned on.
 [DEBUG] Message scheme: plain
 [DEBUG] Reading global settings from C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\conf\settings.xml
-[DEBUG] Reading user settings from C:\Users\cristian.cardozo\AppData\Local\Temp\invoker-settings9286491002077195343.xml
+[DEBUG] Reading user settings from C:\Users\cristian.cardozo\AppData\Local\Temp\invoker-settings10400358449357514006.xml
 [DEBUG] Reading global toolchains from C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\conf\toolchains.xml
 [DEBUG] Reading user toolchains from C:\Users\cristian.cardozo\.m2\toolchains.xml
 [DEBUG] Using local repository at C:\Users\cristian.cardozo\.m2\repository
@@ -312,7 +312,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
   <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
 </configuration>
 [DEBUG] =======================================================================
-[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=331900, ConflictMarker.markTime=81600, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=215600, ConflictIdSorter.topsortTime=170000, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1448100, ConflictResolver.conflictItemCount=2, DefaultDependencyCollector.collectTime=3954100, DefaultDependencyCollector.transformTime=3267700}
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=307500, ConflictMarker.markTime=98600, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=204500, ConflictIdSorter.topsortTime=163800, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1282500, ConflictResolver.conflictItemCount=2, DefaultDependencyCollector.collectTime=4727900, DefaultDependencyCollector.transformTime=2900900}
 [DEBUG] com.camcar.appdesktopui:app-desktop-ui:jar:1.0
 [DEBUG]    com.camcar.buscoreapi:bus-core-api:jar:1.0-SNAPSHOT:system
 [DEBUG]    junit:junit:jar:3.8.1:test
@@ -320,7 +320,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
 [INFO] Total time:  0.151 s
-[INFO] Finished at: 2022-02-02T16:28:09-05:00
+[INFO] Finished at: 2022-02-03T09:52:13-05:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal on project app-desktop-ui: Could not resolve dependencies for project com.camcar.appdesktopui:app-desktop-ui:jar:1.0: Could not find artifact com.camcar.buscoreapi:bus-core-api:jar:1.0-SNAPSHOT at specified path C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.0-SNAPSHOT.jar -> [Help 1]
 org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal on project app-desktop-ui: Could not resolve dependencies for project com.camcar.appdesktopui:app-desktop-ui:jar:1.0: Could not find artifact com.camcar.buscoreapi:bus-core-api:jar:1.0-SNAPSHOT at specified path C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.0-SNAPSHOT.jar

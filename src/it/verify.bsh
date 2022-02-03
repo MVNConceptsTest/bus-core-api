@@ -1,9 +1,0 @@
-import java.io.*;
-
-File file = new File( basedir, "target/bus-core-api-1.0-SNAPSHOT.jar" );
-if ( !file.isFile() )
-{
-    throw new FileNotFoundException( "Could not find generated JAR: " + file );
-}else{
-	 throw new FileNotFoundException( "Could not find generated JAR: " + file );
-}
