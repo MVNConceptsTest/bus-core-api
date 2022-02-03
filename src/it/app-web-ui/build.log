@@ -73,7 +73,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 [INFO] Error stacktraces are turned on.
 [DEBUG] Message scheme: plain
 [DEBUG] Reading global settings from C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\conf\settings.xml
-[DEBUG] Reading user settings from C:\Users\cristian.cardozo\AppData\Local\Temp\invoker-settings2316589738164364545.xml
+[DEBUG] Reading user settings from C:\Users\cristian.cardozo\AppData\Local\Temp\invoker-settings1832700402619140797.xml
 [DEBUG] Reading global toolchains from C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\conf\toolchains.xml
 [DEBUG] Reading user toolchains from C:\Users\cristian.cardozo\.m2\toolchains.xml
 [DEBUG] Using local repository at C:\Users\cristian.cardozo\.m2\repository
@@ -83,8 +83,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 [DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
 [WARNING] 
 [WARNING] Some problems were encountered while building the effective model for com.camcar.appwebui:app-web-ui:jar:1.0
-[WARNING] 'dependencies.dependency.systemPath' for com.camcar.buscoreapi:bus-core-api:jar should use a variable instead of a hard-coded path C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.2.jar @ line 23, column 16
-[WARNING] 'dependencies.dependency.systemPath' for com.camcar.buscoreapi:bus-core-api:jar refers to a non-existing file C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.2.jar @ line 23, column 16
+[WARNING] 'dependencies.dependency.systemPath' for com.camcar.buscoreapi:bus-core-api:jar should use a variable instead of a hard-coded path C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.3.jar @ line 23, column 16
 [WARNING] 
 [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
 [WARNING] 
@@ -312,154 +311,435 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
   <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
 </configuration>
 [DEBUG] =======================================================================
-[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=292900, ConflictMarker.markTime=96200, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=180200, ConflictIdSorter.topsortTime=161400, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1300600, ConflictResolver.conflictItemCount=2, DefaultDependencyCollector.collectTime=4149200, DefaultDependencyCollector.transformTime=2884100}
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=446700, ConflictMarker.markTime=105600, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=222700, ConflictIdSorter.topsortTime=184600, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1493300, ConflictResolver.conflictItemCount=2, DefaultDependencyCollector.collectTime=6740900, DefaultDependencyCollector.transformTime=3816500}
 [DEBUG] com.camcar.appwebui:app-web-ui:jar:1.0
-[DEBUG]    com.camcar.buscoreapi:bus-core-api:jar:1.2:system
+[DEBUG]    com.camcar.buscoreapi:bus-core-api:jar:1.3:system
 [DEBUG]    junit:junit:jar:3.8.1:test
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ app-web-ui ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for central (http://repo1.maven.org/maven2).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=215600, ConflictMarker.markTime=116100, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=150400, ConflictIdSorter.topsortTime=22800, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1487000, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=181720000, DefaultDependencyCollector.transformTime=2035100}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.camcar.appwebui:app-web-ui:1.0 @ C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\interpolated-pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@3f92c349
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.NUMBER_OF_PROCESSORS=8, env.USERPROFILE=C:\Users\cristian.cardozo, java.specification.version=17, sun.cpu.isalist=amd64, sun.arch.data.model=64, env.PROGRAMW6432=C:\Program Files, java.vendor.url=https://java.oracle.com/, env.OS=Windows_NT, sun.boot.library.path=C:\Program Files\Java\jdk-17.0.2\bin, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -B -X -D maven.repo.local=C:\Users\cristian.cardozo\.m2\repository -f interpolated-pom.xml -s C:\Users\cristian.cardozo\AppData\Local\Temp\invoker-settings1832700402619140797.xml package, env.SYSTEMROOT=C:\windows, jdk.debug=release, maven.version=3.8.4, java.specification.vendor=Oracle Corporation, java.version.date=2022-01-18, java.home=C:\Program Files\Java\jdk-17.0.2, env.POM_DIR=C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, env.LOCALAPPDATA=C:\Users\cristian.cardozo\AppData\Local, env.USERDOMAIN_ROAMINGPROFILE=GLOBANT, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.2+8-LTS-86, env.PATH=C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\BIN;%env%;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\Users\cristian.cardozo\AppData\Local\Microsoft\WindowsApps;, env.PUBLIC=C:\Users\Public, env.EXEC_DIR=C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, file.encoding=Cp1252, env.COMPUTERNAME=DESKTOP-HVA37RA, env.HOMEPATH=\Users\cristian.cardozo, env.APPDATA=C:\Users\cristian.cardozo\AppData\Roaming, java.io.tmpdir=C:\Users\CRISTI~1.CAR\AppData\Local\Temp\, java.version=17.0.2, java.vm.specification.name=Java Virtual Machine Specification, native.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk-17.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\BIN;%env%;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\Users\cristian.cardozo\AppData\Local\Microsoft\WindowsApps;;., java.vendor=Oracle Corporation, env.ERROR_CODE=0, classworlds.conf=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\bin\m2.conf, sun.io.unicode.encoding=UnicodeLittle, java.vm.specification.version=17, os.name=Windows 10, env.=EXITCODE=00000001, env.=::=::\, maven.compiler.source=17, user.home=C:\Users\cristian.cardozo, env.ALLUSERSPROFILE=C:\ProgramData, env.SESSIONNAME=Console, env.FILE_ARG=interpolated-pom.xml, env.M2=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\BIN, path.separator=;, os.version=10.0, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.M2_HOME=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4, env.USERNAME=cristian.cardozo, os.arch=amd64, maven.multiModuleProjectDirectory=C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui, env.MAVEN_PROJECTBASEDIR=C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui, java.vm.info=mixed mode, sharing, env.FPS_BROWSER_USER_PROFILE_STRING=Default, env.TEMP=C:\Users\CRISTI~1.CAR\AppData\Local\Temp, java.class.version=61.0, env.ONEDRIVE=C:\Users\cristian.cardozo\OneDrive, sun.jnu.encoding=Cp1252, env.FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, maven.build.version=Apache Maven 3.8.4 (9b656c72d54e5bacbed989b64718c159fe39b537), maven.home=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4, env.JAVA_HOME=C:\Program Files\Java\jdk-17.0.2, env.PROGRAMFILES=C:\Program Files, file.separator=\, java.vm.compressedOopsMode=32-bit, env.CLASSWORLDS_JAR="C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar", line.separator=
+, env.PROMPT=$P$G, env.PROCESSOR_REVISION=8c01, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel, env.PROGRAMDATA=C:\ProgramData, user.name=cristian.cardozo, env.MAVEN_TERMINATE_CMD=on, env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, env.SYSTEMDRIVE=C:, env.JVMCONFIG=\.mvn\jvm.config, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.PROCESSOR_LEVEL=6, env.HOMEDRIVE=C:, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules, env.TMP=C:\Users\CRISTI~1.CAR\AppData\Local\Temp, sun.os.patch.level=, maven.compiler.target=17, env.LOGONSERVER=\\DESKTOP-HVA37RA, library.jansi.path=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\lib\jansi-native, maven.repo.local=C:\Users\cristian.cardozo\.m2\repository, env.WINDIR=C:\windows, env.MAVEN_OPTS=-Xms256m -Xmx512m, env.USERDNSDOMAIN=globant.com, java.class.path=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar, java.vm.vendor=Oracle Corporation, env.PROCESSOR_ARCHITECTURE=AMD64, user.variant=, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, maven.conf=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4/conf, sun.java.launcher=SUN_STANDARD, user.country=US, env.USERDOMAIN=GLOBANT, env.COMSPEC=C:\windows\system32\cmd.exe, sun.cpu.endian=little, user.language=en, env.__PSLOCKDOWNPOLICY=0, env.JAVACMD=C:\Program Files\Java\jdk-17.0.2\bin\java.exe, env.PROFILE=test, env.MAVEN_HOME=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4, env.WDIR=C:\, env.=C:=C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui, java.runtime.name=Java(TM) SE Runtime Environment, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.ZES_ENABLE_SYSMAN=1, env.MAVEN_CMD_LINE_ARGS=-B -X -D maven.repo.local=C:\Users\cristian.cardozo\.m2\repository -f interpolated-pom.xml -s C:\Users\cristian.cardozo\AppData\Local\Temp\invoker-settings1832700402619140797.xml package, java.vendor.url.bug=https://bugreport.java.com/bugreport/, user.dir=C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui, java.vm.version=17.0.2+8-LTS-86}
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\src\main\resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\src\main\resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ app-web-ui ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=534200, ConflictMarker.markTime=223200, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=179500, ConflictIdSorter.topsortTime=47400, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1779400, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=219960000, DefaultDependencyCollector.transformTime=2791700}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui
+[DEBUG]   (f) buildDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target
+[DEBUG]   (f) classpathElements = [C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\classes, C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.3.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\generated-sources\annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\classes
+[DEBUG]   (f) projectArtifact = com.camcar.appwebui:app-web-ui:jar:1.0
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 17
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 17
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@3f92c349
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@3f92c349
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\src\main\java]
+[DEBUG] Classpath: [C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\classes
+ C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.3.jar]
+[DEBUG] Output directory: C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ app-web-ui ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.camcar.appwebui:app-web-ui:1.0 @ C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\interpolated-pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\src\test\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@3f92c349
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.NUMBER_OF_PROCESSORS=8, env.USERPROFILE=C:\Users\cristian.cardozo, java.specification.version=17, sun.cpu.isalist=amd64, sun.arch.data.model=64, env.PROGRAMW6432=C:\Program Files, java.vendor.url=https://java.oracle.com/, env.OS=Windows_NT, sun.boot.library.path=C:\Program Files\Java\jdk-17.0.2\bin, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -B -X -D maven.repo.local=C:\Users\cristian.cardozo\.m2\repository -f interpolated-pom.xml -s C:\Users\cristian.cardozo\AppData\Local\Temp\invoker-settings1832700402619140797.xml package, env.SYSTEMROOT=C:\windows, jdk.debug=release, maven.version=3.8.4, java.specification.vendor=Oracle Corporation, java.version.date=2022-01-18, java.home=C:\Program Files\Java\jdk-17.0.2, env.POM_DIR=C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, env.LOCALAPPDATA=C:\Users\cristian.cardozo\AppData\Local, env.USERDOMAIN_ROAMINGPROFILE=GLOBANT, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.2+8-LTS-86, env.PATH=C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\BIN;%env%;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\Users\cristian.cardozo\AppData\Local\Microsoft\WindowsApps;, env.PUBLIC=C:\Users\Public, env.EXEC_DIR=C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, file.encoding=Cp1252, env.COMPUTERNAME=DESKTOP-HVA37RA, env.HOMEPATH=\Users\cristian.cardozo, env.APPDATA=C:\Users\cristian.cardozo\AppData\Roaming, java.io.tmpdir=C:\Users\CRISTI~1.CAR\AppData\Local\Temp\, java.version=17.0.2, java.vm.specification.name=Java Virtual Machine Specification, native.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk-17.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\BIN;%env%;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\Users\cristian.cardozo\AppData\Local\Microsoft\WindowsApps;;., java.vendor=Oracle Corporation, env.ERROR_CODE=0, classworlds.conf=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\bin\m2.conf, sun.io.unicode.encoding=UnicodeLittle, java.vm.specification.version=17, os.name=Windows 10, env.=EXITCODE=00000001, env.=::=::\, maven.compiler.source=17, user.home=C:\Users\cristian.cardozo, env.ALLUSERSPROFILE=C:\ProgramData, env.SESSIONNAME=Console, env.FILE_ARG=interpolated-pom.xml, env.M2=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\BIN, path.separator=;, os.version=10.0, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.M2_HOME=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4, env.USERNAME=cristian.cardozo, os.arch=amd64, maven.multiModuleProjectDirectory=C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui, env.MAVEN_PROJECTBASEDIR=C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui, java.vm.info=mixed mode, sharing, env.FPS_BROWSER_USER_PROFILE_STRING=Default, env.TEMP=C:\Users\CRISTI~1.CAR\AppData\Local\Temp, java.class.version=61.0, env.ONEDRIVE=C:\Users\cristian.cardozo\OneDrive, sun.jnu.encoding=Cp1252, env.FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, maven.build.version=Apache Maven 3.8.4 (9b656c72d54e5bacbed989b64718c159fe39b537), maven.home=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4, env.JAVA_HOME=C:\Program Files\Java\jdk-17.0.2, env.PROGRAMFILES=C:\Program Files, file.separator=\, java.vm.compressedOopsMode=32-bit, env.CLASSWORLDS_JAR="C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar", line.separator=
+, env.PROMPT=$P$G, env.PROCESSOR_REVISION=8c01, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel, env.PROGRAMDATA=C:\ProgramData, user.name=cristian.cardozo, env.MAVEN_TERMINATE_CMD=on, env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, env.SYSTEMDRIVE=C:, env.JVMCONFIG=\.mvn\jvm.config, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.PROCESSOR_LEVEL=6, env.HOMEDRIVE=C:, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules, env.TMP=C:\Users\CRISTI~1.CAR\AppData\Local\Temp, sun.os.patch.level=, maven.compiler.target=17, env.LOGONSERVER=\\DESKTOP-HVA37RA, library.jansi.path=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\lib\jansi-native, maven.repo.local=C:\Users\cristian.cardozo\.m2\repository, env.WINDIR=C:\windows, env.MAVEN_OPTS=-Xms256m -Xmx512m, env.USERDNSDOMAIN=globant.com, java.class.path=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar, java.vm.vendor=Oracle Corporation, env.PROCESSOR_ARCHITECTURE=AMD64, user.variant=, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, maven.conf=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4/conf, sun.java.launcher=SUN_STANDARD, user.country=US, env.USERDOMAIN=GLOBANT, env.COMSPEC=C:\windows\system32\cmd.exe, sun.cpu.endian=little, user.language=en, env.__PSLOCKDOWNPOLICY=0, env.JAVACMD=C:\Program Files\Java\jdk-17.0.2\bin\java.exe, env.PROFILE=test, env.MAVEN_HOME=C:\Program Files\Apache Software Foundation\apache-maven-3.8.4, env.WDIR=C:\, env.=C:=C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui, java.runtime.name=Java(TM) SE Runtime Environment, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.ZES_ENABLE_SYSMAN=1, env.MAVEN_CMD_LINE_ARGS=-B -X -D maven.repo.local=C:\Users\cristian.cardozo\.m2\repository -f interpolated-pom.xml -s C:\Users\cristian.cardozo\AppData\Local\Temp\invoker-settings1832700402619140797.xml package, java.vendor.url.bug=https://bugreport.java.com/bugreport/, user.dir=C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui, java.vm.version=17.0.2+8-LTS-86}
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\src\test\resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\src\test\resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ app-web-ui ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui
+[DEBUG]   (f) buildDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target
+[DEBUG]   (f) classpathElements = [C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\test-classes, C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\classes, C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.3.jar, C:\Users\cristian.cardozo\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\src\test\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\generated-test-sources\test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\test-classes
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 17
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 17
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@3f92c349
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@3f92c349
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\src\test\java]
+[DEBUG] Classpath: [C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\test-classes
+ C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\classes
+ C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.3.jar
+ C:\Users\cristian.cardozo\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar]
+[DEBUG] Output directory: C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\test-classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ app-web-ui ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=180400, ConflictMarker.markTime=53800, ConflictMarker.nodeCount=132, ConflictIdSorter.graphTime=112900, ConflictIdSorter.topsortTime=18200, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=530500, ConflictResolver.conflictItemCount=77, DefaultDependencyCollector.collectTime=38186900, DefaultDependencyCollector.transformTime=919700}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:2.12.4:compile (version managed from default)
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.12.4:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.1:compile (version managed from default)
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.8:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile (version managed from default)
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:test (scope managed from default) (version managed from default)
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile (exclusions managed from default)
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.12.4
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.8
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test' with basic configurator -->
+[DEBUG]   (s) basedir = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\classes
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///C:/Users/cristian.cardozo/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+   blocked: false
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.12.4:, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.0.9:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.12.4:compile, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.12.4:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, org.apache.maven.shared:maven-common-artifact-filters=org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:3.0.8:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.0.9:compile, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.0.9:compile, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.0.9:compile, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.0.9:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.0.9:compile, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.0.9:compile, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.0.9:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:2.0.9:compile, org.apache.maven:maven-plugin-parameter-documenter=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.0.9:compile, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile, org.apache.maven:maven-plugin-descriptor=org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile, org.apache.maven:maven-monitor=org.apache.maven:maven-monitor:jar:2.0.9:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1:compile, org.apache.maven:maven-toolchain=org.apache.maven:maven-toolchain:jar:2.0.9:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {com.camcar.buscoreapi:bus-core-api=com.camcar.buscoreapi:bus-core-api:jar:1.3:system, junit:junit=junit:junit:jar:3.8.1:test}
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+   blocked: false
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\surefire-reports
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) testClassesDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\src\test\java
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui
+[DEBUG]   (s) project = MavenProject: com.camcar.appwebui:app-web-ui:1.0 @ C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\interpolated-pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@3f92c349
+[DEBUG] -- end configuration --
+[INFO] Surefire report directory: C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\surefire-reports
+[DEBUG] Setting system property [basedir]=[C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui]
+[DEBUG] Setting system property [user.dir]=[C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui]
+[DEBUG] Setting system property [maven.repo.local]=[C:\Users\cristian.cardozo\.m2\repository]
+[DEBUG] Setting system property [localRepository]=[C:\Users\cristian.cardozo\.m2\repository]
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile (selected for compile)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.12.4:compile (selected for compile)
+[DEBUG] Adding to surefire booter test classpath: C:\Users\cristian.cardozo\.m2\repository\org\apache\maven\surefire\surefire-booter\2.12.4\surefire-booter-2.12.4.jar Scope: compile
+[DEBUG] Adding to surefire booter test classpath: C:\Users\cristian.cardozo\.m2\repository\org\apache\maven\surefire\surefire-api\2.12.4\surefire-api-2.12.4.jar Scope: compile
+[DEBUG] Using JVM: C:\Program Files\Java\jdk-17.0.2\bin\java
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-junit3:jar:2.12.4:test (selected for test)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.12.4:test (selected for test)
+[DEBUG] Adding to surefire test classpath: C:\Users\cristian.cardozo\.m2\repository\org\apache\maven\surefire\surefire-junit3\2.12.4\surefire-junit3-2.12.4.jar Scope: test
+[DEBUG] Adding to surefire test classpath: C:\Users\cristian.cardozo\.m2\repository\org\apache\maven\surefire\surefire-api\2.12.4\surefire-api-2.12.4.jar Scope: test
+[DEBUG] test classpath classpath:
+[DEBUG]   C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\test-classes
+[DEBUG]   C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\classes
+[DEBUG]   C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.3.jar
+[DEBUG]   C:\Users\cristian.cardozo\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar
+[DEBUG] provider classpath classpath:
+[DEBUG]   C:\Users\cristian.cardozo\.m2\repository\org\apache\maven\surefire\surefire-junit3\2.12.4\surefire-junit3-2.12.4.jar
+[DEBUG]   C:\Users\cristian.cardozo\.m2\repository\org\apache\maven\surefire\surefire-api\2.12.4\surefire-api-2.12.4.jar
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Forking command line: cmd.exe /X /C ""C:\Program Files\Java\jdk-17.0.2\bin\java" -jar C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\surefire\surefirebooter13257615673451515854.jar C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\surefire\surefire6482323653606416505tmp C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\surefire\surefire_012635231998167405357tmp"
+Running com.camcar.appwebui.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ app-web-ui ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=95800, ConflictMarker.markTime=36400, ConflictMarker.nodeCount=74, ConflictIdSorter.graphTime=72700, ConflictIdSorter.topsortTime=19200, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=548800, ConflictResolver.conflictItemCount=70, DefaultDependencyCollector.collectTime=27120700, DefaultDependencyCollector.transformTime=803500}
+[DEBUG] org.apache.maven.plugins:maven-jar-plugin:jar:2.4
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:runtime
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]             org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]          commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]          org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]          org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.15:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.2:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-jar-plugin:jar:2.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.15
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.2
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:2.4:jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:2.4, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-jar-plugin:2.4:jar' with basic configurator -->
+[DEBUG]   (f) classesDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\classes
+[DEBUG]   (f) defaultManifestFile = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\classes\META-INF\MANIFEST.MF
+[DEBUG]   (f) finalName = app-web-ui-1.0
+[DEBUG]   (f) forceCreation = false
+[DEBUG]   (f) outputDirectory = C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target
+[DEBUG]   (f) project = MavenProject: com.camcar.appwebui:app-web-ui:1.0 @ C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\interpolated-pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@3f92c349
+[DEBUG]   (f) skipIfEmpty = false
+[DEBUG]   (f) useDefaultManifestFile = false
+[DEBUG] -- end configuration --
+[DEBUG] isUp2date: false (Resource with newer modification date found.)
+[INFO] Building jar: C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\src\it\app-web-ui\target\app-web-ui-1.0.jar
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding directory com/
+[DEBUG] adding directory com/camcar/
+[DEBUG] adding directory com/camcar/appwebui/
+[DEBUG] adding entry com/camcar/appwebui/App.class
+[DEBUG] adding directory META-INF/maven/
+[DEBUG] adding directory META-INF/maven/com.camcar.appwebui/
+[DEBUG] adding directory META-INF/maven/com.camcar.appwebui/app-web-ui/
+[DEBUG] adding entry META-INF/maven/com.camcar.appwebui/app-web-ui/pom.xml
+[DEBUG] adding entry META-INF/maven/com.camcar.appwebui/app-web-ui/pom.properties
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.196 s
-[INFO] Finished at: 2022-02-03T10:06:18-05:00
+[INFO] Total time:  1.610 s
+[INFO] Finished at: 2022-02-03T10:08:48-05:00
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal on project app-web-ui: Could not resolve dependencies for project com.camcar.appwebui:app-web-ui:jar:1.0: Could not find artifact com.camcar.buscoreapi:bus-core-api:jar:1.2 at specified path C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.2.jar -> [Help 1]
-org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal on project app-web-ui: Could not resolve dependencies for project com.camcar.appwebui:app-web-ui:jar:1.0: Could not find artifact com.camcar.buscoreapi:bus-core-api:jar:1.2 at specified path C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.2.jar
-    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:269)
-    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:248)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:202)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
-    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
-Caused by: org.apache.maven.project.DependencyResolutionException: Could not resolve dependencies for project com.camcar.appwebui:app-web-ui:jar:1.0: Could not find artifact com.camcar.buscoreapi:bus-core-api:jar:1.2 at specified path C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.2.jar
-    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:198)
-    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
-    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:248)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:202)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
-    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
-Caused by: org.eclipse.aether.resolution.DependencyResolutionException: Could not find artifact com.camcar.buscoreapi:bus-core-api:jar:1.2 at specified path C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.2.jar
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies (DefaultRepositorySystem.java:357)
-    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:191)
-    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
-    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:248)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:202)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
-    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
-Caused by: org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact com.camcar.buscoreapi:bus-core-api:jar:1.2 at specified path C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.2.jar
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:425)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:229)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies (DefaultRepositorySystem.java:340)
-    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:191)
-    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
-    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:248)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:202)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
-    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
-Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact com.camcar.buscoreapi:bus-core-api:jar:1.2 at specified path C:\Users\cristian.cardozo\Documents\UGlobant\MVN\bus-core-api\target\bus-core-api-1.2.jar
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:266)
-    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:229)
-    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies (DefaultRepositorySystem.java:340)
-    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:191)
-    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
-    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:248)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:202)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
-    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
-    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
-    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
-    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
-    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
-    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
-    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
-    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
-    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
-    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
-    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
-    at java.lang.reflect.Method.invoke (Method.java:568)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
-[ERROR] 
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
