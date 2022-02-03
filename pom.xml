@@ -1,9 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.camcar.buscoreapi</groupId>
 	<artifactId>bus-core-api</artifactId>
-	<version>1.0</version>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>bus-core-api</name>
 	<url>http://maven.apache.org</url>
@@ -27,8 +28,7 @@
 		<url>https://github.com/cardozo94/bus-core-api</url>
 		<connection>scm:git:https://github.com/cardozo94/bus-core-api</connection>
 		<developerConnection>scm:git:https://github.com/cardozo94/bus-core-api</developerConnection>
-	  <tag>bus-core-api-1.0</tag>
-  </scm>
+	</scm>
 	<!--<<<end>>>configures connection to repository  to download sources-->
 	<!--<<<start>>>location where built r artifacts will be store after code build is successful-->
 	<distributionManagement>
